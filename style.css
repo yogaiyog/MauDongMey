@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    display: inline;
+}
+.nav {
+    display: block;
+    width: fit-content;
+    margin: 10px auto;
+    background-color: antiquewhite;
+}
+.nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
