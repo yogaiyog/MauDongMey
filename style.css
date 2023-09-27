@@ -2,16 +2,113 @@ body {
     margin: 0;
     padding: 0;
 }
-.logo {
-    display: inline;
-}
+
 .nav {
-    display: block;
-    width: fit-content;
-    margin: 10px auto;
+    height: 100px;
+}
+.nav ul {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin: auto;
     background-color: antiquewhite;
 }
 .nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: auto 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav ul img {
+    height: 50px;
+    margin: -10px;
+    background-color: wheat;
+    border-radius: 50%;
+}
+li span {
+    font-family: 'Dancing Script', cursive;
+}
+.ilustration {
+    width: 100%;
+    height: 400px;
+    background-image: url("images/ilustration.gif");
+    background-size: cover;
+    background-position-y: bottom;
+    background-blend-mode: exclusion;
+    margin: 0;
+    padding: 0%;
+    display: flex;
+}
+.empty {
+    flex: 1;
+}
+.offer {
+    color: white;
+    text-shadow: 1rem black;
+    flex: 1;
+    text-align: right;
+    padding: 0 200px;
+    padding-top: 120px;
+}
+.offer button {
+    width: 150px;
+    height: auto;
+    background-color: orangered;
+    border-radius: 30px;
+    color: white;
+    font-family: 'Montserrat';
+    border: none;
+    box-shadow: 0, 0, 20, 0 , rgba(0, 0, 0, 0.8) 
+}
+
+/* Images section */
+
+.book {
+    padding: 100px 200px ;
+    text-align: center;
+}
+.book h2 {
+    font-family: 'Dancing Script';
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.col img {
+    width: 300px;
+}
+.col h3{
+    font-family: 'Dancing Script';
+}
+.col {
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+}
+
+/* ..... */
+
+.gifts{
+    margin-top: 50px;
+    height: 500px;
+    padding: 0 100px;
+    background-color: #ffede7;
+}
+.gift-desc {
+    margin: auto;
+    padding: 0 200px;
+}
+.gift-desc h1 {
+    color: #172b75;
+    font-size: 50px;
+    margin: 0;
+}
+hr {
+    border: 3px solid #c59b6e;
+}
+.gift-desc a {
+    font-family: 'Dancing Script';
+    font-size: 20px;
 }
